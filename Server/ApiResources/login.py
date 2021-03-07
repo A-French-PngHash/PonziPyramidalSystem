@@ -1,8 +1,8 @@
 from flask import Flask, request
 from flask_restful import Resource, Api, reqparse
-from Server.utils import *
-from Server.data import *
-from Server.user import *
+from utils import *
+from data import *
+from user import *
 
 class Login(Resource):
 

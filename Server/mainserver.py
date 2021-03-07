@@ -1,11 +1,10 @@
 from flask import Flask, request
 from flask_restful import Resource, Api
-from Server.ApiResources.inviteFriends import *
-from Server.ApiResources.login import *
-from Server.utils import *
-from Server.data import *
-from Server.ApiResources.money import *
-import Server.mysqlconnection
+from ApiResources.inviteFriends import *
+from ApiResources.login import *
+from utils import *
+from data import *
+from ApiResources.money import *
 
 """
 username : Organisator

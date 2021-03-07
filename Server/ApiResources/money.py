@@ -1,7 +1,7 @@
 from flask import request
 from flask_restful import Resource, Api, reqparse
-from Server.utils import *
-from Server.data import *
+from utils import *
+from data import *
 
 
 class Money(Resource):

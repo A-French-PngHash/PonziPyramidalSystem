@@ -1,7 +1,7 @@
 import mysql.connector
 import random
-from Server.mysqlconnection import *
-from Server.user import *
+from mysqlconnection import *
+from user import *
 
 
 def value_in_database(columnName, value) -> bool:
